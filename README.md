@@ -1,5 +1,5 @@
 ### Status
-[![Build Status](https://travis-ci.org/niedbalski/ssh-exec-test.svg?branch=master)](https://github.com/niedbalski/ssh-exec-test
+[![Build Status](https://travis-ci.org/niedbalski/ssh-exec-test.svg?branch=master)](https://github.com/niedbalski/ssh-exec-test)
 
 SSH Exec test
 =============
