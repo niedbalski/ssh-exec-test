@@ -1,0 +1,10 @@
+language: python
+
+branches:
+  only:
+    - master
+
+install:
+  - sudo apt-get install python-tox
+
+script: "tox"
