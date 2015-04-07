@@ -7,5 +7,6 @@ setup(
     name="ssh-exec-test",
     version="0.1.1",
     setup_requires=['pbr'],
+    install_requires=['paramiko'],
     pbr=True,
 )
