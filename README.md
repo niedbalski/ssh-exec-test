@@ -11,6 +11,10 @@ Usage
 
 For more examples, please checkout the tests directory.
 
+```bash
+$ pip install ssh-exec-test
+```
+
 ```python
 from ssh_exec_test import (assert_ssh_exec, input)
 
@@ -26,7 +30,7 @@ with assert_ssh_exec(rules=[
     ssh.close()
 
 
-    assert stdout == "foobar"
+    assert stdout.read() == "foobar"
 ```
 
 
